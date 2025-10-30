@@ -561,3 +561,70 @@ cite {
         padding: 0.8rem 1rem;
     }
 }
+
+/* Spiritual Cards Section */
+.spiritual-cards {
+    margin: 4rem 0;
+}
+
+.year-navigation {
+    margin-bottom: 3rem;
+}
+
+.year-navigation h3 {
+    color: #8b4513;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.card-preview {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+    border-left: 4px solid #d4af37;
+}
+
+.card-preview:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-date {
+    display: inline-block;
+    background: #f0e6d6;
+    color: #5d4037;
+    padding: 0.3rem 1rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-preview h4 {
+    font-family: 'Playfair Display', serif;
+    color: #2c1810;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.card-excerpt {
+    margin-bottom: 1.5rem;
+}
+
+.card-excerpt p {
+    font-style: italic;
+    color: #555;
+    line-height: 1.6;
+}
