@@ -628,3 +628,96 @@ cite {
     color: #555;
     line-height: 1.6;
 }
+
+/* Spiritual Card Single Page */
+.spiritual-card-single {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.card-meta {
+    margin-bottom: 2rem;
+}
+
+.card-date-full {
+    background: #f0e6d6;
+    color: #5d4037;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.quote-full blockquote {
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #2c1810;
+    border-left: 4px solid #d4af37;
+    padding: 2rem;
+    margin: 2rem 0;
+    background: #fff9e6;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+.card-navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #f0e6d6;
+}
+
+.nav-btn {
+    display: inline-block;
+    background: #8b4513;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.nav-btn:hover {
+    background: #5d4037;
+} 
+
+/* Card Navigation */
+.card-navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #f0e6d6;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.nav-btn {
+    display: inline-block;
+    background: #8b4513;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    flex: 1;
+    text-align: center;
+    max-width: 200px;
+}
+
+.nav-btn:hover {
+    background: #5d4037;
+}
+
+/* Responsive card navigation */
+@media (max-width: 768px) {
+    .card-navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-btn {
+        max-width: 100%;
+    }
+}
