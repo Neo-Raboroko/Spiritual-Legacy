@@ -802,3 +802,30 @@ cite {
         font-size: 1.1rem;
     }
 }
+
+/* Fix for full-page layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Spiritual Footer - Fixed Positioning */
+.spiritual-footer {
+    background: #2c1810;
+    color: #f8f0e0;
+    text-align: center;
+    padding: 3rem 0;
+    margin-top: auto; /* This pushes footer to bottom */
+    width: 100%;
+}
