@@ -817,3 +817,17 @@ body {
     width: 100%;
     position: relative;
 }
+/* Footer */
+.spiritual-footer {
+    background: #2c1810;
+    color: #f8f0e0;
+    text-align: center;
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+.footer-verse {
+    margin-top: 1rem;
+    font-style: italic;
+    opacity: 0.8;
+}
