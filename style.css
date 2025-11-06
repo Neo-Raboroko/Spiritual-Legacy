@@ -869,3 +869,17 @@ body {
         width: 100%;
     }
 }
+.chapter-card.upcoming {
+    opacity: 0.8;
+    background: #f9f9f9;
+}
+
+.coming-soon {
+    text-align: center;
+    padding: 1.5rem;
+    color: #666;
+}
+
+.coming-soon p {
+    margin: 0.5rem 0;
+}
